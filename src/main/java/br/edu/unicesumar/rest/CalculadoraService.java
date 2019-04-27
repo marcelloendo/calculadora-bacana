@@ -13,7 +13,7 @@ public class CalculadoraService {
 	public Response somar(@PathParam("param1") Integer parametro1, @PathParam("param2") Integer parametro2) {
 
 		Integer soma = parametro1 + parametro2;
-		String result = "A soma é " + soma;
+		String result = "A soma e " + soma;
 
 		return Response.status(200).entity(result).build();
 
